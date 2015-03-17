@@ -556,7 +556,6 @@ a.article-title:hover {
 .article-entry {
   color: #555;
   padding: 0 20px;
-/*img,*/
 }
 .article-entry:before,
 .article-entry:after {
@@ -600,6 +599,9 @@ a.article-title:hover {
 .article-entry dl {
   margin-top: 1.6em;
   margin-bottom: 1.6em;
+}
+.article-entry img {
+  max-width: 100%;
 }
 .article-entry video {
   max-width: 100%;
